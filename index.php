@@ -1,5 +1,5 @@
 <?php
-$age = 12;
+$age = 19;
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
@@ -8,12 +8,13 @@ $age = 12;
     <title>PHP Partie2 exo1</title>
   </head>
   <body>
-    <?php
-      if ($age < 18) {
-        echo 'Vous êtes mineur';
-      } else {
-        echo 'Vous êtes majeur';
-      }
-      ?>
+    <p>
+      <?php
+      if ($age < 18) { ?>
+        Vous êtes mineur
+      <?php } else { ?>
+        Vous êtes majeur
+      <?php } ?>
+    </p>
   </body>
 </html>
